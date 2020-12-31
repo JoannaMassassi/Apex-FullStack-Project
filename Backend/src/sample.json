@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Aliens",
+        "year": "1986",
+        "rating": "85"
+    },
+    {
+        "id": 2,
+        "title": "Supa",
+        "year": "1988",
+        "rating": "60"
+    },
+    {
+        "id": 3,
+        "title": "Lilo & Stitch",
+        "year": "2005",
+        "rating": "100"
+    },
+    {
+        "id": 4,
+        "title": "Flubber",
+        "year": "1998",
+        "rating": "88"
+    }
+
+]
