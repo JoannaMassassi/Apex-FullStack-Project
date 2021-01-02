@@ -1,0 +1,110 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.backgroundimage {
+  background-image:url("apex.jpg");
+  height: 25vw; 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  } 
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 5vw;
+  text-align: right;
+  background-repeat:repeat;
+  position: relative;
+  background-image: url("apexNight.png");
+}
+
+.navSpacing{
+  padding-left:15px;
+  padding-right: 15px;
+}
+
+.navBarTitle{
+  font-size: 30px;
+  font-family: 'Luckiest Guy', cursive;
+  color:white;
+  align-self:inherit; 
+}
+.navOptions{
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  align-self:inherit; 
+
+}
+ 
+body {
+  height: 25vw; 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url("apexLogo.jpg");
+}
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+
+.navColor {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color:violet; */ 
+  background-color: rgba(255, 255, 255, .1);
+  top: 0;
+  width: 100%;
+
+  backdrop-filter: blur(8px);
+  /* -moz-filter:blur(2px); */
+
+
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
